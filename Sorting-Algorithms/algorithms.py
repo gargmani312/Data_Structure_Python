@@ -4,11 +4,12 @@ Algorithms Script to find sorting using different algorithms
 
 class Algorithms:
     def __init__(self, arr) -> None:
-        print("arr to be sort :: ", arr)
+        print("arr to be sort     :: ", arr)
         self.arr = arr
         self.arr_count = len(self.arr)
 
     def sorted_algorithms(self):
+        
         print("Bubble Sort Result :: ", self.bubble())
 
     def bubble(self) -> list[int]: 
@@ -34,7 +35,6 @@ class Algorithms:
         element is at the rightmost position which is sorted correctly.
 
         Second Iteration
-
         (2, 10, 1, 23) –> (2, 10, 1, 23), Here again, the 
         first 2 elements are compared and remain the 
         same because they are already in ascending order.
