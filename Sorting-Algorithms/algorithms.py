@@ -48,7 +48,7 @@ class Algorithms:
 
         Third Iteration
         (2, 1, 10, 23) –> (1, 2, 10, 23), Here the first 2 elements 
-            are compared and swap according to ascending order.
+        are compared and swap according to ascending order.
 
         The remaining elements are already sorted in the 
         first and second Iterations. After the three iterations, 
