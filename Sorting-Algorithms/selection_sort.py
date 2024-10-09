@@ -1,6 +1,8 @@
 '''
 This sorting technique repeatedly finds the minimum element and sort it in order
 '''
+
+
 def selection_sort(arr):
     '''
     params: list of integers
@@ -18,6 +20,7 @@ def selection_sort(arr):
 
     returns: sorted list of integers
     '''    
+
     len_of_arr = len(arr)
     for i in range(len_of_arr):
         min_index = i
