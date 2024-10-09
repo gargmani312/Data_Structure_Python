@@ -1,4 +1,4 @@
-def select_sort(arr):
+def selection_sort(arr):
     '''
     params: list of integers
     returns: sorted list of integers
@@ -15,4 +15,4 @@ def select_sort(arr):
 
 if __name__ == '__main__':
     arr = [64, 25, 12, 22, 11]
-    print(select_sort(arr))
+    print(selection_sort(arr))
