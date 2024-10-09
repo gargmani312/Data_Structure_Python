@@ -1,9 +1,15 @@
+'''
+Bubble Sort is a simple sorting algorithm. This sorting algorithm 
+repeatedly compares two adjacent elements and swaps them if they are in 
+the wrong order. 
+'''
+
+
 def bubble_sort(arr):
     """
     params: list of integers
 
     Sequence: 2, 23, 10, 1
-
     First Iteration
     (2, 23, 10, 1) –> (2, 23, 10, 1), Here the 
     first 2 elements are compared and remain the same because they 
@@ -43,8 +49,10 @@ def bubble_sort(arr):
 
     self.arr[j] > self.arr[j+1] return Assending Order
     self.arr[j] < self.arr[j+1] return Decsending Order
+
     return: Sorted list of integers
     """
+
     for i in range(len(arr)):
         for j in range(0, len(arr) - i -1):
             if arr[j] > arr[j+1]:
